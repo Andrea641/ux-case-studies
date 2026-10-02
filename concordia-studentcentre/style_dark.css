@@ -1,0 +1,83 @@
+.gh-page-header .gh-page-header-headings,
+.ui-panel .gh-listview li a::after
+{
+	display: none !important;
+}
+
+ul{
+	margin-block-start: unset !important;
+	margin: 0 0 10px 0 !important;
+}
+.ui-btn{
+	margin: unset !important;
+}
+.ui-bar{
+ 	border-radius: 8px !important;
+}
+.gh-page-header{
+	border: none !important;
+}
+.gh-page-header .gh-page-header-links{
+	float: left !important;
+}
+.gh-has-submenu-cols .gh-submenu-cols > div.gh-submenu{
+	width: unset !important;
+}
+.gh-has-submenu-cols .gh-submenu-cols[data-cols="2"] > .gh-submenu-cols-wrap{
+	display: flex !important;
+	flex-direction: column-reverse !important;
+}
+
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="761"]>tbody>
+tr:nth-child(3):not(:has(table)){
+	background-color: #681928;
+	padding: 0 30%;
+}
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="761"]>tbody>
+tr:nth-child(3):not(:has(table)) div > *{
+	width: fit-content !important;
+	text-align: center;
+}
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="761"]>tbody>tr:nth-last-child(2){
+	background-color: #681928;
+	border-radius: 8px;
+	padding: 0 20px;
+}
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="761"]>tbody>tr:nth-last-child(2):before{
+	display: block;
+	content: 'LEGEND';
+	text-align: center;
+	font-weight: bolder;
+}
+
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="1248"]>tbody>tr:nth-last-child(2){
+	background-color: #59232b;
+	padding: 5vh 2.5vw;
+}
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="1248"]>tbody>tr:nth-last-child(2) div
+{
+	border-radius: 8px;
+}
+
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="1248"]>tbody>tr:nth-last-child(2) div > div.gh-submenu-wrap .ui-btn
+{
+	border-top-right-radius: 8px !important;
+	border-bottom-right-radius: 8px !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+table[bup-aria-labelledby="app_label"] 
+table.PSPAGECONTAINER[bup-width="1248"]>tbody>tr:nth-last-child(2) div > div.gh-submenu-wrap .ui-bar
+{
+	border-top-left-radius: 8px !important;
+	border-bottom-left-radius: 8px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
